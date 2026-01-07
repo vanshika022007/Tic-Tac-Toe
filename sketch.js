@@ -32,7 +32,7 @@ function checkWinner(){
         if (val1 === val2 && val2 === val3 && val1 === val3){
             win = true;
             let ans = document.createElement("h2");
-            ans.innerText = `${val1} is the winner`;
+            ans.innerText = `${val1} is the winner!`;
             body.appendChild(ans);
             reset.innerText = "Restart";
             reset.style.backgroundColor = "red";
