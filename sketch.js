@@ -57,7 +57,7 @@ function checkWinner(){
 
     if (count === 5 && win == false){
         let ans = document.createElement("h2");
-        ans.innerText = `Match is draw`;
+        ans.innerText = `Match is draw!`;
         body.appendChild(ans);
         reset.innerText = "Restart";
         reset.style.backgroundColor = "red";
